@@ -10,9 +10,10 @@ use Barryvdh\DomPDF\Facade\Pdf;
 
 class PDFController extends Controller
 {
-    public function pdfview(){
-        return view('myPDF');
-    }
+    // public function generatePDF(){
+    //    $pdf = pdf::loadView('index');
+    //    return $pdf->download();
+    // }
     public function generatePDF()
     {
         try {
